@@ -21,7 +21,7 @@ plugins {
 }
 
 def twaManifest = [
-    applicationId: 'org.eu.ciorogarlaunita.app.twa',
+    applicationId: 'org.eu.ciorogarlaunita.app',
     hostName: 'app.ciorogarlaunita.eu.org', // The domain being opened in the TWA.
     launchUrl: '/?utm_source=homescreen', // The start path for the TWA. Must be relative to the domain.
     name: 'Ciorogârla Unită', // The application name.
@@ -52,7 +52,7 @@ def twaManifest = [
 android {
     compileSdkVersion 31
     defaultConfig {
-        applicationId "org.eu.ciorogarlaunita.app.twa"
+        applicationId "org.eu.ciorogarlaunita.app"
         minSdkVersion 19
         targetSdkVersion 31
         versionCode 1
